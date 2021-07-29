@@ -3,7 +3,7 @@ import TodoForm from './TodoForm';
 import { MdDeleteForever } from 'react-icons/md';
 import { TiEdit } from 'react-icons/ti';
 import { FcApproval } from "react-icons/fc";
-import { Checkmark } from 'react-checkmark';
+//import { Checkmark } from 'react-checkmark';
 
 const Todo = ({ todos, completeTodo, removeTodo, updateTodo, markAsDone }) => {
   const [edit, setEdit] = useState({
